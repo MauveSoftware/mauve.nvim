@@ -4,5 +4,4 @@ require('lualine').setup {
     theme = 'codedark',
     global = true,
   },
-  extensions = { 'fugitive', 'neo-tree' },
 }
