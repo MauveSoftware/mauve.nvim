@@ -1,3 +1,4 @@
+require('plugins.cmp')
 require('plugins.gitsigns')
 require('plugins.lualine')
 require('plugins.mini')
