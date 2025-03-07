@@ -5,6 +5,7 @@ wk.setup {
   preset = "modern",
   spec = {
   { "<leader>f", group = "Find" },
+  { "<leader>g", group = "Git" },
   {
     "<leader>b",
       group = "buffer",
