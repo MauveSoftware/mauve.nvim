@@ -21,7 +21,8 @@ require("mini.comment").setup {
   comment_line = 'gcc'
 }
 
-require('mini.bufremove').setup {
+local mini_bufremove = require('mini.bufremove')
+mini_bufremove.setup {
   silent = true
 }
 
@@ -76,4 +77,4 @@ mini_ai.setup {
   },
 }
 
-vim.keymap.set('n', '<leader>w', function() require('mini.bufremove').delete(0, false) end, { desc = 'Close current buffer' })
+vim.keymap.set('n', '<leader>w', function() mini_bufremove.delete(0, false) end, { desc = 'Close current buffer' })
