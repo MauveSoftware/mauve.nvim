@@ -16,6 +16,11 @@ require('mini.surround').setup {
 
 require("mini.pairs").setup()
 
+require("mini.comment").setup {
+  comment = 'gc',
+  comment_line = 'gcc'
+}
+
 require('mini.bufremove').setup {
   silent = true
 }
