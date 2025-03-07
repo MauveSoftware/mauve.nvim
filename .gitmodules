@@ -13,3 +13,9 @@
 [submodule "pack/vendor/start/gitsigns.nvim"]
 	path = pack/vendor/start/gitsigns.nvim
 	url = https://github.com/lewis6991/gitsigns.nvim.git
+[submodule "pack/vendor/start/neo-tree.nvim"]
+	path = pack/vendor/start/neo-tree.nvim
+	url = https://github.com/nvim-neo-tree/neo-tree.nvim.git
+[submodule "pack/vendor/start/nui.nvim"]
+	path = pack/vendor/start/nui.nvim
+	url = https://github.com/MunifTanjim/nui.nvim.git

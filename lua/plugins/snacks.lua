@@ -2,6 +2,7 @@ local notify = vim.notify
 
 require('snacks').setup {
   bigfile = { enabled = true },
+  explorer = { enabled = true },
   quickfile = { enabled = true },
   input = { enabled = true },
   notifier = {
@@ -10,6 +11,11 @@ require('snacks').setup {
   },
   picker = {
     ui_select = true,
+    sources = {
+      explorer = {
+        watch = false
+      }
+    }
   },
   terminal = {
     win = {
