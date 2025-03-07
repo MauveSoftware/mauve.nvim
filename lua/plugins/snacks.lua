@@ -11,11 +11,6 @@ require('snacks').setup {
   },
   picker = {
     ui_select = true,
-    sources = {
-      explorer = {
-        watch = false
-      }
-    }
   },
   terminal = {
     win = {
