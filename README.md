@@ -3,6 +3,9 @@
 ## Description
 This is a minimal (opinionated) Neovim distribution. It's target is to provide useful features for editing files without having too much dependencies/plugins. Since this config is distributed via config management we do not use any plugin managers. Plugin version locking is achieved by using git submodules.
 
+## Requirements
+* Neovim 10.0+
+
 ## Plugins
 * [github.com/echasnovski/mini.nvim](https://github.com/echasnovski/mini.nvim/)
 * [github.com/folke/snacks.nvim](https://github.com/folke/snacks.nvim)
