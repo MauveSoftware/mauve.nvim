@@ -69,7 +69,6 @@ cmp.setup {
   sources = {
     { name = 'buffer', keyword_length = 2 },
     { name = 'path', keyword_length = 1 },
-    { name = 'cmdline' }
   },
   formatting = {
     format = function(_, item)
