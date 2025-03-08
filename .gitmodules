@@ -10,9 +10,6 @@
 [submodule "pack/vendor/start/vscode.nvim"]
 	path = pack/vendor/start/vscode.nvim
 	url = https://github.com/Mofiqul/vscode.nvim.git
-[submodule "pack/vendor/start/gitsigns.nvim"]
-	path = pack/vendor/start/gitsigns.nvim
-	url = https://github.com/lewis6991/gitsigns.nvim.git
 [submodule "pack/vendor/start/neo-tree.nvim"]
 	path = pack/vendor/start/neo-tree.nvim
 	url = https://github.com/nvim-neo-tree/neo-tree.nvim.git
