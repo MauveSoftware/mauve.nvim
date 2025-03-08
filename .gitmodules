@@ -16,9 +16,6 @@
 [submodule "pack/vendor/start/nui.nvim"]
 	path = pack/vendor/start/nui.nvim
 	url = https://github.com/MunifTanjim/nui.nvim.git
-[submodule "pack/vendor/start/lualine.nvim"]
-	path = pack/vendor/start/lualine.nvim
-	url = https://github.com/nvim-lualine/lualine.nvim.git
 [submodule "pack/vendor/start/nvim-cmp"]
 	path = pack/vendor/start/nvim-cmp
 	url = https://github.com/hrsh7th/nvim-cmp.git

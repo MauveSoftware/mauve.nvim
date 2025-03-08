@@ -1,3 +1,7 @@
+require('mini.icons').setup()
+
+require('mini.git').setup()
+
 require('mini.bracketed').setup {
   comment = { suffix = '', options = {} },
   file = { suffix = '', options = {} },
@@ -25,6 +29,7 @@ local mini_bufremove = require('mini.bufremove')
 mini_bufremove.setup {
   silent = true
 }
+vim.keymap.set('n', '<leader>w', function() mini_bufremove.delete(0, false) end, { desc = 'Close current buffer' })
 
 local mini_indentscope = require("mini.indentscope")
 mini_indentscope.setup {
@@ -84,4 +89,4 @@ require('mini.diff').setup {
   }
 }
 
-vim.keymap.set('n', '<leader>w', function() mini_bufremove.delete(0, false) end, { desc = 'Close current buffer' })
+require('mini.statusline').setup()
