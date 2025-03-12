@@ -1,0 +1,8 @@
+require('mini.git').setup()
+vim.keymap.set('n', '<leader>gc', '<cmd>Git commit -a<CR>', { desc = 'Commit' })
+vim.keymap.set('n', '<leader>gu', '<cmd>Git pull<CR>', { desc = 'Pull' })
+vim.keymap.set('n', '<leader>gp', '<cmd>Git push<CR>', { desc = 'Push' })
+vim.keymap.set('n', '<leader>gb', '<cmd>Git blame %<CR>', { desc = 'Blame (current file)' })
+vim.keymap.set('n', '<leader>gl', '<cmd>Git log %<CR>', { desc = 'Log (current file)' })
+vim.keymap.set('n', '<leader>gL', '<cmd>Git log<CR>', { desc = 'Log' })
+vim.keymap.set('n', '<leader>ga', '<cmd>Git add .<CR>', { desc = 'Add' })
