@@ -1,41 +1,4 @@
 local cmp = require('cmp')
-local cmp_icons = {
-  Array = " ",
-  Boolean = " ",
-  Class = " ",
-  Color = " ",
-  Constant = " ",
-  Constructor = " ",
-  Copilot = " ",
-  Enum = " ",
-  EnumMember = " ",
-  Event = " ",
-  Field = " ",
-  File = " ",
-  Folder = " ",
-  Function = " ",
-  Interface = " ",
-  Key = " ",
-  Keyword = " ",
-  Method = " ",
-  Module = " ",
-  Namespace = " ",
-  Null = " ",
-  Number = " ",
-  Object = " ",
-  Operator = " ",
-  Package = " ",
-  Property = " ",
-  Reference = " ",
-  Snippet = " ",
-  String = " ",
-  Struct = " ",
-  Text = " ",
-  TypeParameter = " ",
-  Unit = " ",
-  Value = " ",
-  Variable = " ",
-}
 
 cmp.setup {
   snippet = {
@@ -72,9 +35,7 @@ cmp.setup {
   },
   formatting = {
     format = function(_, item)
-      if cmp_icons[item.kind] then
-        item.kind = cmp_icons[item.kind] .. item.kind
-      end
+      item.kind = MiniIcons.get('lsp', item.kind) .. item.kind
       return item
     end,
   },
