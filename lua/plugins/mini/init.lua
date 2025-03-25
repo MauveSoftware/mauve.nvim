@@ -2,7 +2,6 @@ require('mini.icons').setup()
 
 require('mini.pairs').setup()
 require('mini.statusline').setup()
-require('mini.tabline').setup()
 
 require('plugins.mini.ai')
 require('plugins.mini.bracketed')
@@ -13,3 +12,4 @@ require('plugins.mini.diff')
 require('plugins.mini.git')
 require('plugins.mini.identscope')
 require('plugins.mini.surround')
+require('plugins.mini.tabline')

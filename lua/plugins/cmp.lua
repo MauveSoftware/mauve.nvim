@@ -35,7 +35,7 @@ cmp.setup {
   },
   formatting = {
     format = function(_, item)
-      item.kind = MiniIcons.get('lsp', item.kind) .. item.kind
+      item.kind = MiniIcons.get('lsp', item.kind) .. ' ' .. item.kind
       return item
     end,
   },
