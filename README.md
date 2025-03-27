@@ -9,7 +9,7 @@ This is a minimal (opinionated) Neovim distribution. It's target is to provide u
 ## Plugins
 * [github.com/echasnovski/mini.nvim](https://github.com/echasnovski/mini.nvim/)
 * [github.com/folke/snacks.nvim](https://github.com/folke/snacks.nvim)
-* [github.com/hrsh7th/nvim-cmp](https://github.com/hrsh7th/nvim-cmp)
+* [github.com/Saghen/blink.cmp](https://github.com/Saghen/blink.cmp)
 * [github.com/nvim-treesitter/nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
 
 ## Themes
