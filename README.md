@@ -11,6 +11,7 @@ This is a minimal (opinionated) Neovim distribution. It's target is to provide u
 * [github.com/folke/snacks.nvim](https://github.com/folke/snacks.nvim)
 * [github.com/Saghen/blink.cmp](https://github.com/Saghen/blink.cmp)
 * [github.com/nvim-treesitter/nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
+* [github.com/sindrets/diffview.nvim](https://github.com/sindrets/diffview.nvim)
 
 ## Themes
 * [github.com/Mofiqul/vscode.nvim](https://github.com/Mofiqul/vscode.nvim)

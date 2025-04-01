@@ -1,4 +1,5 @@
 require('plugins.cmp')
+require('plugins.diffview')
 require('plugins.mini')
 require('plugins.snacks')
 require('plugins.tree-sitter')
