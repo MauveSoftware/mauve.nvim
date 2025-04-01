@@ -98,3 +98,4 @@ end
 vim.cmd("colorscheme vscode")
 
 require('plugins')
+require('config')
