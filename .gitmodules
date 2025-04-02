@@ -13,3 +13,6 @@
 [submodule "pack/vendor/start/blink.cmp"]
 	path = pack/vendor/start/blink.cmp
 	url = https://github.com/Saghen/blink.cmp.git
+[submodule "pack/vendor/start/SchemaStore.nvim"]
+	path = pack/vendor/start/SchemaStore.nvim
+	url = https://github.com/b0o/SchemaStore.nvim.git
