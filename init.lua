@@ -1,4 +1,1 @@
-vim.cmd("colorscheme vscode")
-
-require('config')
-require('plugins')
+init.full.lua
