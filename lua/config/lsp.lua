@@ -62,10 +62,13 @@ vim.api.nvim_create_autocmd('LspAttach', {
   end,
 })
 
+vim.lsp.enable('ansible')
 vim.lsp.enable('bash')
+vim.lsp.enable('go')
+vim.lsp.enable('json')
+vim.lsp.enable('lua')
+vim.lsp.enable('php')
 vim.lsp.enable('python')
 vim.lsp.enable('ruby')
-vim.lsp.enable('json')
-vim.lsp.enable('yaml')
-vim.lsp.enable('ansible')
 vim.lsp.enable('terraform')
+vim.lsp.enable('yaml')
