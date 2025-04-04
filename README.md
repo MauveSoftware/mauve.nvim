@@ -15,7 +15,7 @@ This is a minimal (opinionated) Neovim distribution. It's target is to provide u
 
 ## Themes
 * [github.com/rebelot/kanagawa.nvim](https://github.com/rebelot/kanagawa.nvim)
-* [github.com/vscode-neovim/vscode-neovim](https://github.com/vscode-neovim/vscode-neovim)
+* [github.com/Mofiqul/vscode.nvim](https://github.com/Mofiqul/vscode.nvim)
 
 ## See also
 [github.com/neovim](https://github.com/neovim/)
