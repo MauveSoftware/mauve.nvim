@@ -4,9 +4,6 @@
 [submodule "pack/vendor/start/snacks.nvim"]
 	path = pack/vendor/start/snacks.nvim
 	url = https://github.com/folke/snacks.nvim.git
-[submodule "pack/vendor/start/vscode.nvim"]
-	path = pack/vendor/start/vscode.nvim
-	url = https://github.com/Mofiqul/vscode.nvim.git
 [submodule "pack/vendor/start/nvim-treesitter"]
 	path = pack/vendor/start/nvim-treesitter
 	url = https://github.com/nvim-treesitter/nvim-treesitter.git
@@ -16,3 +13,9 @@
 [submodule "pack/vendor/start/SchemaStore.nvim"]
 	path = pack/vendor/start/SchemaStore.nvim
 	url = https://github.com/b0o/SchemaStore.nvim.git
+[submodule "pack/vendor/start/kanagawa.nvim"]
+	path = pack/vendor/start/kanagawa.nvim
+	url = https://github.com/rebelot/kanagawa.nvim.git
+[submodule "pack/vendor/start/vscode.nvim"]
+	path = pack/vendor/start/vscode.nvim
+	url = https://github.com/Mofiqul/vscode.nvim.git
