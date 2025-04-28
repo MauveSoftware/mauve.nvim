@@ -12,6 +12,7 @@ This is a minimal (opinionated) Neovim distribution. It's target is to provide u
 * [github.com/Saghen/blink.cmp](https://github.com/Saghen/blink.cmp)
 * [github.com/nvim-treesitter/nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
 * [github.com/SchemaStore/schemastore](https://github.com/SchemaStore/schemastore)
+* [github.com/stevearc/conform.nvim](https://github.com/stevearc/conform.nvim)
 
 ## Themes
 * [github.com/rebelot/kanagawa.nvim](https://github.com/rebelot/kanagawa.nvim)

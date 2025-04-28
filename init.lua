@@ -1,4 +1,4 @@
 require('config')
 require('plugins')
+pcall(require, 'coding')
 pcall(require, 'custom')
-pcall(require, 'lsp')
